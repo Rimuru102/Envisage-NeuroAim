@@ -1,0 +1,21 @@
+    0.00s start webcam=True port=COM7 limits yaw -35..55 pitch -10..45
+    0.03s hand FOUND
+    0.41s RECORD #1 auto cam=[-0.27, -0.005, 1.0] aim=[-14.8, 5.69] sigma=1.01deg hand_std_cm=[0.2, 0.1, 0.0]
+    4.22s RECORD #2 auto cam=[-0.386, -0.001, 1.0] aim=[-20.74, 5.28] sigma=1.28deg hand_std_cm=[1.3, 0.4, 0.0]
+    8.26s RECORD #3 auto cam=[-0.195, -0.002, 0.555] aim=[-18.71, 9.59] sigma=1.85deg hand_std_cm=[0.5, 0.0, 1.4]
+    8.37s holding last aim [-18.8, 9.6]
+    9.85s stopped holding (firmware re-centers about 1 s after the last command)
+   19.29s hand LOST
+   19.48s hand FOUND
+   21.19s hand LOST
+   24.90s hand FOUND
+   25.70s hand LOST
+   26.11s hand FOUND
+   27.91s hand LOST
+   28.12s hand FOUND
+   28.31s hand LOST
+   28.42s hand FOUND
+   28.71s hand LOST
+   28.82s hand FOUND
+   29.95s hand LOST
+   30.02s hand FOUND

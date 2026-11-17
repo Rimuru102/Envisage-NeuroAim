@@ -1,0 +1,146 @@
+    0.01s start offset seed=[0.18, 0.25, 0.2] webcam=True port=COM7 limits yaw -35..55 pitch -10..45
+    1.10s hand FOUND
+    2.73s 2+ hands in view (following 211,320; others [[398.0, 307.0]])
+    2.81s 2+ hands in view -> back to one
+    2.94s hand LOST
+    2.95s holding last aim [-8.3, 5.9]
+    4.40s stopped holding (firmware re-centers about 1 s after the last command)
+    6.69s hand FOUND
+   10.67s 2+ hands in view (following -6,358; others [[556.0, 331.0]])
+   10.74s hand LOST
+   10.74s 2+ hands in view -> back to one
+   10.74s holding last aim [-23.5, 2.3]
+   12.22s stopped holding (firmware re-centers about 1 s after the last command)
+   15.24s hand FOUND
+   18.73s NUDGE w trim=[0.0, 0.5]
+   18.81s NUDGE w trim=[0.0, 1.1]
+   19.00s NUDGE w trim=[0.0, 1.9]
+   19.27s NUDGE s trim=[0.0, 1.0]
+   19.52s NUDGE w trim=[0.0, 2.0]
+   19.65s NUDGE w trim=[0.0, 3.1]
+   19.79s NUDGE w trim=[0.0, 4.4]
+   19.94s NUDGE w trim=[0.0, 5.7]
+   20.24s NUDGE w trim=[0.0, 7.2]
+   20.76s NUDGE a trim=[-0.5, 7.2]
+   21.00s NUDGE a trim=[-1.1, 7.2]
+   21.13s NUDGE a trim=[-1.9, 7.1]
+   21.37s NUDGE a trim=[-2.7, 7.1]
+   21.56s NUDGE a trim=[-3.7, 7.1]
+   21.81s NUDGE a trim=[-4.9, 7.1]
+   21.96s NUDGE a trim=[-6.1, 7.1]
+   22.01s NUDGE w trim=[-6.1, 8.5]
+   22.16s NUDGE w trim=[-6.1, 10.0]
+   22.30s NUDGE w trim=[-6.1, 11.6]
+   22.48s NUDGE w trim=[-6.1, 13.3]
+   22.62s NUDGE w trim=[-6.1, 15.2]
+   22.87s NUDGE w trim=[-6.1, 17.2]
+   23.17s NUDGE d trim=[-4.0, 17.2]
+   23.31s NUDGE d trim=[-1.7, 17.2]
+   23.52s NUDGE w trim=[-1.7, 19.6]
+   23.65s NUDGE a trim=[-4.2, 19.6]
+   23.85s NUDGE a trim=[-6.9, 19.6]
+   24.04s NUDGE a trim=[-9.6, 19.6]
+   26.54s 2+ hands in view (following 138,321; others [[462.0, 379.0]])
+   27.07s 2+ hands in view -> back to one
+   27.23s 2+ hands in view (following 138,321; others [[377.0, 368.0]])
+   27.47s 2+ hands in view -> back to one
+   28.52s 2+ hands in view (following 137,322; others [[557.0, 100.0]])
+   28.69s 2+ hands in view -> back to one
+   28.80s 2+ hands in view (following 127,318; others [[489.0, 98.0]])
+   29.32s hand LOST
+   29.32s 2+ hands in view -> back to one
+   29.33s holding last aim [-29.2, 15.5]
+   30.25s hand FOUND
+   30.25s 2+ hands in view (following 54,297; others [[489.0, 225.0]])
+   30.25s stopped holding (firmware re-centers about 1 s after the last command)
+   31.32s 2+ hands in view -> back to one
+   31.48s 2+ hands in view (following 226,325; others [[539.0, 252.0]])
+   31.63s 2+ hands in view -> back to one
+   31.84s 2+ hands in view (following 201,314; others [[545.0, 383.0]])
+   43.31s hand LOST
+   43.31s 2+ hands in view -> back to one
+   43.31s holding last aim [-8.8, 13.7]
+   44.29s hand FOUND
+   44.29s stopped holding (firmware re-centers about 1 s after the last command)
+   44.52s hand LOST
+   44.52s holding last aim [-16.2, 22.1]
+   44.71s hand FOUND
+   44.71s 2+ hands in view (following 105,273; others [[600.0, 199.0]])
+   44.71s GLITCH ignored: jumped 0.19 m to px (105,273) palm 52px hands=2 others=[[600.0, 199.0]] z 1.00
+   44.73s GLITCH ignored: jumped 0.20 m to px (99,270) palm 47px hands=2 others=[[602.0, 206.0]] z 1.00
+   44.77s stopped holding (firmware re-centers about 1 s after the last command)
+   44.80s 2+ hands in view -> back to one
+   44.94s 2+ hands in view (following 77,266; others [[661.0, 323.0]])
+   44.97s 2+ hands in view -> back to one
+   45.31s hand LOST
+   45.31s holding last aim [-23.5, 26.6]
+   46.79s hand FOUND
+   46.79s stopped holding (firmware re-centers about 1 s after the last command)
+   47.24s 2+ hands in view (following 595,162; others [[66.0, 255.0]])
+   48.68s 2+ hands in view -> back to one
+   50.67s 2+ hands in view (following 584,167; others [[746.0, 190.0]])
+   50.79s 2+ hands in view -> back to one
+   52.35s hand LOST
+   52.35s holding last aim [19.4, 16.0]
+   53.84s hand FOUND
+   53.84s 2+ hands in view (following 537,425; others [[566.0, 309.0]])
+   53.84s stopped holding (firmware re-centers about 1 s after the last command)
+   53.95s 2+ hands in view -> back to one
+   55.69s hand LOST
+   55.69s holding last aim [17.7, -2.1]
+   57.13s hand FOUND
+   57.13s stopped holding (firmware re-centers about 1 s after the last command)
+   60.50s hand LOST
+   60.50s holding last aim [-16.1, 24.6]
+   61.91s stopped holding (firmware re-centers about 1 s after the last command)
+   63.00s hand FOUND
+   63.58s hand LOST
+   63.59s holding last aim [30.4, 13.0]
+   63.83s hand FOUND
+   63.83s stopped holding (firmware re-centers about 1 s after the last command)
+   64.57s hand LOST
+   64.57s holding last aim [25.4, 18.4]
+   66.03s stopped holding (firmware re-centers about 1 s after the last command)
+  111.06s hand FOUND
+  111.19s hand LOST
+  111.19s holding last aim [5.4, -0.5]
+  112.62s stopped holding (firmware re-centers about 1 s after the last command)
+  118.23s hand FOUND
+  118.28s hand LOST
+  118.28s holding last aim [5.7, -3.6]
+  119.74s stopped holding (firmware re-centers about 1 s after the last command)
+  172.58s hand FOUND
+  172.77s hand LOST
+  172.77s holding last aim [-6.4, 10.4]
+  174.19s stopped holding (firmware re-centers about 1 s after the last command)
+  184.92s hand FOUND
+  185.06s hand LOST
+  185.06s holding last aim [-3.7, 16.0]
+  186.49s stopped holding (firmware re-centers about 1 s after the last command)
+  203.28s hand FOUND
+  203.59s hand LOST
+  203.59s holding last aim [-8.7, 22.8]
+  205.00s stopped holding (firmware re-centers about 1 s after the last command)
+  267.70s hand FOUND
+  267.70s 2+ hands in view (following 353,425; others [[230.0, 443.0]])
+  267.72s hand LOST
+  267.72s 2+ hands in view -> back to one
+  267.72s holding last aim [1.8, 0.2]
+  268.26s hand FOUND
+  268.26s stopped holding (firmware re-centers about 1 s after the last command)
+  268.32s hand LOST
+  268.33s holding last aim [-0.4, 11.9]
+  269.75s stopped holding (firmware re-centers about 1 s after the last command)
+  271.38s hand FOUND
+  278.13s hand LOST
+  278.13s holding last aim [-1.0, 12.2]
+  279.58s stopped holding (firmware re-centers about 1 s after the last command)
+  284.09s hand FOUND
+  285.50s hand LOST
+  285.50s holding last aim [-11.3, 16.4]
+  286.92s stopped holding (firmware re-centers about 1 s after the last command)
+  391.57s hand FOUND
+  393.41s 2+ hands in view (following 607,224; others [[610.0, 227.0]])
+  393.49s 2+ hands in view -> back to one
+  395.60s hand LOST
+  395.60s holding last aim [20.6, 15.3]

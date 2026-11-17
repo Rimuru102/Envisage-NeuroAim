@@ -1,0 +1,98 @@
+    0.00s start offset seed=[0.18, 0.25, 0.2] webcam=True port=COM7 limits yaw -35..55 pitch -10..45
+   13.46s hand FOUND
+   13.65s hand LOST
+   13.66s holding last aim [-3.8, 1.3]
+   14.04s hand FOUND
+   14.05s stopped holding (firmware re-centers about 1 s after the last command)
+   19.30s 2+ hands in view (following 183,308; others [[523.0, 332.0]])
+   19.33s 2+ hands in view -> back to one
+   19.39s 2+ hands in view (following 183,308; others [[484.0, 330.0]])
+   19.53s 2+ hands in view -> back to one
+   19.69s 2+ hands in view (following 181,307; others [[261.0, 402.0]])
+   19.72s 2+ hands in view -> back to one
+   23.23s 2+ hands in view (following 207,313; others [[508.0, 324.0]])
+   24.38s 2+ hands in view -> back to one
+   25.60s 2+ hands in view (following 193,367; others [[492.0, 469.0]])
+   26.89s 2+ hands in view -> back to one
+   27.28s 2+ hands in view (following 200,385; others [[658.0, 91.0]])
+   27.35s 2+ hands in view -> back to one
+   27.50s 2+ hands in view (following 136,351; others [[572.0, 151.0]])
+   28.00s 2+ hands in view -> back to one
+   28.19s 2+ hands in view (following 4,325; others [[669.0, 105.0]])
+   28.62s 2+ hands in view -> back to one
+   28.67s 2+ hands in view (following 51,326; others [[511.0, 418.0]])
+   29.26s 2+ hands in view -> back to one
+   31.29s 2+ hands in view (following 113,310; others [[407.0, 401.0]])
+   33.26s 2+ hands in view -> back to one
+   33.60s 2+ hands in view (following 119,313; others [[501.0, 131.0]])
+   34.36s 2+ hands in view -> back to one
+   34.40s 2+ hands in view (following 119,311; others [[502.0, 244.0]])
+   35.03s 2+ hands in view -> back to one
+   35.15s 2+ hands in view (following 166,323; others [[466.0, 342.0]])
+   35.74s 2+ hands in view -> back to one
+   35.79s 2+ hands in view (following 150,314; others [[463.0, 317.0]])
+   36.76s 2+ hands in view -> back to one
+   37.48s 2+ hands in view (following 142,312; others [[440.0, 307.0]])
+   38.60s 2+ hands in view -> back to one
+   39.11s 2+ hands in view (following 143,313; others [[521.0, 383.0]])
+   39.21s 2+ hands in view -> back to one
+   39.27s 2+ hands in view (following 144,313; others [[649.0, 232.0]])
+   39.65s 2+ hands in view -> back to one
+   42.72s DEPTH key -: manual z=0.95 locked=None
+   42.88s DEPTH key -: manual z=0.90 locked=None
+   43.17s DEPTH key -: manual z=0.85 locked=None
+   43.31s DEPTH key -: manual z=0.80 locked=None
+   43.82s DEPTH key -: manual z=0.75 locked=None
+   44.02s DEPTH key -: manual z=0.70 locked=None
+   44.30s DEPTH key -: manual z=0.65 locked=None
+   44.42s DEPTH key -: manual z=0.60 locked=None
+   45.62s DEPTH key -: manual z=0.55 locked=None
+   46.02s DEPTH key -: manual z=0.50 locked=None
+   46.39s DEPTH key -: manual z=0.45 locked=None
+   46.85s DEPTH key -: manual z=0.40 locked=None
+   48.22s LOCK key: locked=(0.39999999999999963, 52.37688585412194) (manual z=0.40)
+   49.20s 2+ hands in view (following 148,313; others [[509.0, 383.0]])
+   49.23s 2+ hands in view -> back to one
+   49.28s 2+ hands in view (following 147,312; others [[482.0, 351.0]])
+   49.39s 2+ hands in view -> back to one
+   49.86s NUDGE a trim=[-0.5, 0.0]
+   50.38s NUDGE a trim=[-1.0, 0.0]
+   50.41s NUDGE a trim=[-1.6, 0.0]
+   50.45s NUDGE a trim=[-2.4, 0.0]
+   50.48s NUDGE a trim=[-3.2, 0.0]
+   50.51s NUDGE a trim=[-4.2, 0.0]
+   50.54s NUDGE a trim=[-5.4, 0.0]
+   50.58s NUDGE a trim=[-6.6, 0.0]
+   50.61s NUDGE a trim=[-8.0, 0.0]
+   50.64s NUDGE a trim=[-9.5, 0.0]
+   50.67s NUDGE a trim=[-11.1, 0.0]
+   50.72s NUDGE d trim=[-9.4, 0.0]
+   51.17s NUDGE d trim=[-8.9, 0.0]
+   51.32s NUDGE w trim=[-8.9, 0.6]
+   51.62s NUDGE w trim=[-8.9, 1.4]
+   52.07s NUDGE s trim=[-8.9, 0.9]
+   52.34s NUDGE s trim=[-8.9, 0.2]
+   53.18s RECORD #1 auto cam=[-0.18, 0.047, 0.401] aim=[-8.87, 18.88] sigma=1.01deg hand_std_cm=[0.1, 0.0, 0.1] trim=[-8.9, 0.2]
+   69.09s NUDGE a trim=[-0.5, 0.0]
+   69.17s NUDGE d trim=[0.1, 0.0]
+   69.20s NUDGE w trim=[0.1, 0.8]
+   69.39s NUDGE a trim=[-0.8, 0.7]
+   70.25s RECORD #2 auto cam=[-0.261, 0.033, 0.589] aim=[-6.61, 16.08] sigma=1.33deg hand_std_cm=[0.4, 0.1, 0.8] trim=[-0.8, 0.7]
+   71.07s NUDGE a trim=[-0.6, 0.1]
+   71.26s NUDGE w trim=[-0.6, 0.7]
+   71.81s NUDGE s trim=[-0.6, 0.2]
+   72.04s NUDGE s trim=[-0.6, -0.4]
+   72.40s NUDGE d trim=[0.1, -0.4]
+   72.67s NUDGE a trim=[-0.7, -0.4]
+   81.09s 2+ hands in view (following 145,273; others [[402.0, 392.0]])
+   81.12s 2+ hands in view -> back to one
+   81.23s 2+ hands in view (following 145,273; others [[447.0, 372.0]])
+   81.34s 2+ hands in view -> back to one
+   81.74s 2+ hands in view (following 147,273; others [[359.0, 195.0]])
+   82.01s 2+ hands in view -> back to one
+   82.15s 2+ hands in view (following 151,275; others [[541.0, 337.0]])
+   82.26s 2+ hands in view -> back to one
+   83.89s hand LOST
+   83.89s holding last aim [-5.4, 12.2]
+   85.37s stopped holding (firmware re-centers about 1 s after the last command)
+   91.49s hand FOUND

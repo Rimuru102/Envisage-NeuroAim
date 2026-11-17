@@ -1,0 +1,41 @@
+    0.01s start webcam=True port=COM7 limits yaw -35..55 pitch -10..45
+    0.03s hand FOUND
+    0.40s RECORD #1 auto cam=[-0.414, 0.022, 1.0] aim=[-22.1, 4.06] sigma=1.06deg hand_std_cm=[0.5, 0.4, 0.0]
+    5.86s RECORD #2 auto cam=[-0.22, 0.006, 0.55] aim=[-21.13, 8.7] sigma=1.00deg hand_std_cm=[0.0, 0.0, 0.0]
+    6.10s holding last aim [-21.2, 8.6]
+    7.57s stopped holding (firmware re-centers about 1 s after the last command)
+   10.03s hand LOST
+   10.60s hand FOUND
+   10.64s hand LOST
+   10.69s hand FOUND
+   15.24s 2+ hands in view (following 580,227; others [[591.0, 252.0]])
+   15.28s 2+ hands in view -> back to one
+   16.96s 2+ hands in view (following 500,239; others [[511.0, 275.0]])
+   17.00s 2+ hands in view -> back to one
+   17.05s 2+ hands in view (following 501,237; others [[512.0, 270.0]])
+   17.09s 2+ hands in view -> back to one
+   17.13s 2+ hands in view (following 501,238; others [[511.0, 268.0]])
+   17.17s 2+ hands in view -> back to one
+   17.24s 2+ hands in view (following 505,236; others [[516.0, 274.0]])
+   17.28s 2+ hands in view -> back to one
+   17.60s 2+ hands in view (following 526,237; others [[544.0, 251.0]])
+   17.65s 2+ hands in view -> back to one
+   17.73s 2+ hands in view (following 527,236; others [[543.0, 246.0]])
+   17.76s 2+ hands in view -> back to one
+   18.91s 2+ hands in view (following 518,237; others [[542.0, 262.0]])
+   18.93s 2+ hands in view -> back to one
+   18.97s 2+ hands in view (following 518,237; others [[543.0, 267.0]])
+   19.01s 2+ hands in view -> back to one
+   19.07s 2+ hands in view (following 519,237; others [[540.0, 258.0]])
+   19.11s 2+ hands in view -> back to one
+   20.33s hand LOST
+   20.51s hand FOUND
+   20.58s hand LOST
+   20.68s hand FOUND
+   21.75s hand LOST
+   23.19s hand FOUND
+   24.43s hand LOST
+   24.50s hand FOUND
+   24.55s hand LOST
+   24.71s hand FOUND
+   25.42s hand LOST

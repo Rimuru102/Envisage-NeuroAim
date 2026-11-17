@@ -1,0 +1,725 @@
+    0.00s start offset seed=[0.18, 0.25, 0.2] webcam=True port=COM7 limits yaw -35..55 pitch -10..45
+    1.39s hand FOUND
+    5.56s DEPTH key -: manual z=0.95 locked=None
+    5.73s DEPTH key -: manual z=0.90 locked=None
+    5.93s DEPTH key -: manual z=0.85 locked=None
+    6.14s DEPTH key -: manual z=0.80 locked=None
+    6.37s DEPTH key -: manual z=0.75 locked=None
+    6.63s DEPTH key -: manual z=0.70 locked=None
+    6.85s DEPTH key -: manual z=0.65 locked=None
+    7.09s DEPTH key -: manual z=0.60 locked=None
+    7.64s DEPTH key -: manual z=0.55 locked=None
+    7.99s DEPTH key -: manual z=0.50 locked=None
+    8.45s DEPTH key -: manual z=0.45 locked=None
+   11.43s DEPTH key =: manual z=0.50 locked=None
+   12.14s DEPTH key =: manual z=0.55 locked=None
+   12.84s DEPTH key -: manual z=0.50 locked=None
+   14.34s 2+ hands in view (following 227,269; others [[423.0, 304.0]])
+   14.43s 2+ hands in view -> back to one
+   14.66s LOCK key: locked=(0.4999999999999996, 42.21623256576665) (manual z=0.50)
+   17.35s 2+ hands in view (following 221,271; others [[386.0, 305.0]])
+   17.52s 2+ hands in view -> back to one
+   17.62s NUDGE a trim=[-0.5, 0.0]
+   18.02s NUDGE d trim=[0.0, 0.0]
+   18.29s NUDGE d trim=[0.6, 0.0]
+   18.60s NUDGE d trim=[1.4, 0.0]
+   18.90s NUDGE d trim=[2.3, 0.0]
+   19.18s NUDGE a trim=[1.3, 0.0]
+   19.67s NUDGE a trim=[0.8, 0.0]
+   19.74s NUDGE a trim=[0.1, 0.0]
+   19.79s NUDGE a trim=[-0.6, 0.0]
+   19.82s NUDGE a trim=[-1.5, 0.0]
+   19.85s NUDGE a trim=[-2.5, 0.0]
+   19.90s NUDGE a trim=[-3.6, 0.0]
+   19.93s NUDGE a trim=[-4.9, 0.0]
+   20.33s NUDGE w trim=[-4.9, 1.4]
+   20.59s NUDGE w trim=[-4.9, 2.9]
+   21.04s NUDGE d trim=[-4.4, 2.9]
+   21.46s NUDGE d trim=[-3.9, 2.9]
+   21.91s NUDGE s trim=[-3.9, 2.4]
+   22.21s NUDGE d trim=[-3.2, 2.4]
+   22.96s NUDGE d trim=[-2.7, 2.4]
+   23.53s NUDGE d trim=[-2.2, 2.4]
+   24.36s RECORD #1 auto cam=[-0.154, 0.027, 0.452] aim=[0.05, 21.22] sigma=1.01deg hand_std_cm=[0.1, 0.0, 0.1] trim=[-2.2, 2.4]
+   26.80s hand LOST
+   26.80s holding last aim [-3.0, 18.5]
+   28.25s stopped holding (firmware re-centers about 1 s after the last command)
+   29.06s hand FOUND
+   31.76s hand LOST
+   31.76s holding last aim [-5.8, 20.9]
+   31.93s NUDGE d trim=[0.5, 0.0]
+   32.20s NUDGE a trim=[-0.4, 0.0]
+   33.23s stopped holding (firmware re-centers about 1 s after the last command)
+   33.54s hand FOUND
+   33.57s hand LOST
+   33.57s holding last aim [13.8, 18.5]
+   35.05s stopped holding (firmware re-centers about 1 s after the last command)
+   36.66s hand FOUND
+   37.18s RECORD #2 auto cam=[-0.184, 0.018, 0.355] aim=[-0.75, 22.72] sigma=2.96deg hand_std_cm=[0.9, 0.1, 1.5] trim=[-0.4, 0.0]
+   38.45s 2+ hands in view (following 53,275; others [[369.0, 309.0]])
+   38.48s 2+ hands in view -> back to one
+   39.04s NUDGE a trim=[-0.5, 0.0]
+   39.55s NUDGE a trim=[-1.0, 0.0]
+   39.59s NUDGE a trim=[-1.6, 0.0]
+   39.63s NUDGE a trim=[-2.4, 0.0]
+   39.66s NUDGE a trim=[-3.2, 0.0]
+   39.69s NUDGE a trim=[-4.2, 0.0]
+   39.76s NUDGE a trim=[-5.4, 0.0]
+   39.79s NUDGE d trim=[-4.1, 0.0]
+   40.27s NUDGE d trim=[-3.6, 0.0]
+   40.30s NUDGE d trim=[-3.0, 0.0]
+   40.35s NUDGE d trim=[-2.2, 0.0]
+   40.38s NUDGE d trim=[-1.4, 0.0]
+   40.41s NUDGE d trim=[-0.4, 0.0]
+   40.46s NUDGE d trim=[0.8, 0.0]
+   40.49s NUDGE d trim=[2.0, 0.0]
+   40.52s NUDGE d trim=[3.4, 0.0]
+   40.56s NUDGE d trim=[4.9, 0.0]
+   40.60s NUDGE d trim=[6.5, 0.0]
+   40.64s NUDGE d trim=[8.3, 0.0]
+   40.67s NUDGE d trim=[10.1, 0.0]
+   40.70s NUDGE a trim=[8.1, 0.0]
+   41.21s NUDGE a trim=[7.6, 0.0]
+   41.26s NUDGE a trim=[7.0, 0.0]
+   41.29s NUDGE a trim=[6.3, 0.0]
+   41.33s NUDGE a trim=[5.4, 0.0]
+   41.36s NUDGE a trim=[4.4, 0.0]
+   41.42s NUDGE a trim=[3.2, 0.0]
+   41.47s NUDGE a trim=[2.0, 0.0]
+   41.50s NUDGE a trim=[0.6, 0.0]
+   41.53s NUDGE a trim=[-0.9, 0.0]
+   41.57s NUDGE a trim=[-2.5, 0.0]
+   41.61s NUDGE a trim=[-4.3, 0.0]
+   41.66s NUDGE a trim=[-6.1, 0.0]
+   41.69s NUDGE a trim=[-8.1, 0.0]
+   41.73s NUDGE a trim=[-10.2, 0.0]
+   41.77s NUDGE a trim=[-12.5, 0.0]
+   41.80s NUDGE a trim=[-14.9, 0.0]
+   41.83s NUDGE a trim=[-17.4, 0.0]
+   42.28s NUDGE d trim=[-16.9, 0.0]
+   42.58s NUDGE d trim=[-16.2, 0.0]
+   43.08s NUDGE d trim=[-15.7, 0.0]
+   43.13s NUDGE d trim=[-15.1, 0.0]
+   43.16s NUDGE d trim=[-14.4, 0.0]
+   43.20s NUDGE d trim=[-13.5, 0.0]
+   43.23s NUDGE d trim=[-12.5, 0.0]
+   43.27s NUDGE d trim=[-11.4, 0.0]
+   43.52s NUDGE d trim=[-10.1, 0.0]
+   44.12s NUDGE d trim=[-9.6, 0.0]
+   44.89s NUDGE w trim=[-9.6, 0.5]
+   45.41s NUDGE w trim=[-9.6, 1.0]
+   45.45s NUDGE w trim=[-9.6, 1.6]
+   45.50s NUDGE w trim=[-9.6, 2.4]
+   45.53s NUDGE w trim=[-9.6, 3.2]
+   45.57s NUDGE w trim=[-9.6, 4.2]
+   45.60s NUDGE w trim=[-9.6, 5.4]
+   45.64s NUDGE w trim=[-9.6, 6.6]
+   45.69s NUDGE w trim=[-9.6, 8.0]
+   46.26s NUDGE s trim=[-9.6, 7.5]
+   46.76s NUDGE s trim=[-9.6, 7.0]
+   46.82s NUDGE s trim=[-9.6, 6.4]
+   46.86s NUDGE s trim=[-9.6, 5.6]
+   46.91s NUDGE s trim=[-9.6, 4.7]
+   47.23s NUDGE a trim=[-10.6, 4.7]
+   47.59s NUDGE d trim=[-9.5, 4.7]
+   48.11s NUDGE s trim=[-9.5, 4.2]
+   48.65s NUDGE s trim=[-9.5, 3.7]
+   48.68s NUDGE s trim=[-9.5, 3.1]
+   49.03s NUDGE s trim=[-9.5, 2.4]
+   49.58s NUDGE s trim=[-9.5, 1.9]
+   50.01s NUDGE a trim=[-10.0, 1.9]
+   50.41s NUDGE a trim=[-10.5, 1.9]
+   50.97s NUDGE a trim=[-11.0, 1.9]
+   51.48s NUDGE a trim=[-11.5, 1.9]
+   51.51s NUDGE a trim=[-12.1, 1.9]
+   51.59s NUDGE a trim=[-12.8, 1.9]
+   51.63s NUDGE a trim=[-13.7, 1.9]
+   51.66s NUDGE a trim=[-14.7, 1.9]
+   52.56s NUDGE a trim=[-15.2, 1.9]
+   53.25s NUDGE a trim=[-15.7, 1.9]
+   54.22s NUDGE d trim=[-15.2, 1.9]
+   54.57s NUDGE d trim=[-14.6, 1.9]
+   61.55s hand LOST
+   61.55s holding last aim [-19.7, 23.8]
+   62.99s stopped holding (firmware re-centers about 1 s after the last command)
+   64.36s hand FOUND
+   67.37s RECORD #3 auto cam=[-0.19, -0.017, 0.314] aim=[-13.26, 28.98] sigma=1.52deg hand_std_cm=[0.3, 0.4, 0.4] trim=[-14.6, 1.9]
+   67.67s hand LOST
+   67.67s holding last aim [-10.4, 28.2]
+   69.13s stopped holding (firmware re-centers about 1 s after the last command)
+   72.17s hand FOUND
+   76.23s holding last aim [12.3, 34.4]
+   76.45s stopped holding (firmware re-centers about 1 s after the last command)
+   77.98s hand LOST
+   77.98s holding last aim [9.1, 35.5]
+   79.45s stopped holding (firmware re-centers about 1 s after the last command)
+   82.72s hand FOUND
+   86.71s NUDGE d trim=[0.5, 0.0]
+   87.32s NUDGE w trim=[0.5, 0.5]
+   87.71s NUDGE w trim=[0.5, 1.1]
+   88.21s NUDGE w trim=[0.5, 1.6]
+   88.25s NUDGE w trim=[0.5, 2.2]
+   88.43s NUDGE w trim=[0.5, 3.0]
+   88.98s NUDGE w trim=[0.5, 3.5]
+   89.35s NUDGE w trim=[0.5, 4.1]
+   89.75s NUDGE w trim=[0.5, 4.6]
+   90.58s RECORD #4 auto cam=[-0.112, -0.079, 0.265] aim=[8.85, 39.64] sigma=1.06deg hand_std_cm=[0.1, 0.0, 0.1] trim=[0.5, 4.6]
+   92.56s NUDGE w trim=[0.0, 0.6]
+   93.09s NUDGE w trim=[0.0, 1.1]
+   93.13s NUDGE w trim=[0.0, 1.7]
+   93.17s NUDGE w trim=[0.0, 2.4]
+   93.20s NUDGE w trim=[0.0, 3.3]
+   93.24s NUDGE w trim=[0.0, 4.3]
+   93.27s NUDGE w trim=[0.0, 5.4]
+   95.83s RECORD #5 auto cam=[-0.135, 0.039, 0.371] aim=[4.47, 20.85] sigma=3.15deg hand_std_cm=[1.2, 1.4, 0.6] trim=[0.0, 5.4]
+   95.86s FIT n=5 kept=5 dropped=[] params=[0.304, -0.197, -0.228, 0.088, -0.003, 0.168, 0.095, 0.004] err_deg=[0.35, 6.3, 2.31, 0.36, 1.74] adopted=False
+   95.94s hand LOST
+   95.94s holding last aim [0.9, 19.8]
+   96.99s hand FOUND
+   96.99s stopped holding (firmware re-centers about 1 s after the last command)
+   98.35s hand LOST
+   98.35s holding last aim [-2.3, 19.4]
+   99.22s hand FOUND
+   99.22s stopped holding (firmware re-centers about 1 s after the last command)
+  101.94s hand LOST
+  101.94s holding last aim [5.4, 24.1]
+  102.98s hand FOUND
+  102.98s stopped holding (firmware re-centers about 1 s after the last command)
+  105.47s holding last aim [14.0, 27.9]
+  106.07s stopped holding (firmware re-centers about 1 s after the last command)
+  117.26s hand LOST
+  117.26s holding last aim [-3.5, 16.3]
+  117.62s hand FOUND
+  117.62s stopped holding (firmware re-centers about 1 s after the last command)
+  119.39s hand LOST
+  119.39s holding last aim [-4.0, 18.1]
+  120.32s hand FOUND
+  120.32s stopped holding (firmware re-centers about 1 s after the last command)
+  120.57s hand LOST
+  120.57s holding last aim [2.8, 17.4]
+  122.04s hand FOUND
+  122.04s stopped holding (firmware re-centers about 1 s after the last command)
+  122.09s 2+ hands in view (following 515,276; others [[517.0, 270.0]])
+  122.11s 2+ hands in view -> back to one
+  122.85s hand LOST
+  122.85s holding last aim [18.5, 14.4]
+  123.05s hand FOUND
+  123.05s stopped holding (firmware re-centers about 1 s after the last command)
+  138.97s hand LOST
+  138.97s holding last aim [31.5, 17.2]
+  139.57s hand FOUND
+  139.57s stopped holding (firmware re-centers about 1 s after the last command)
+  145.18s hand LOST
+  145.18s holding last aim [8.1, 13.9]
+  145.57s hand FOUND
+  145.57s stopped holding (firmware re-centers about 1 s after the last command)
+  145.72s 2+ hands in view (following 352,210; others [[349.0, 211.0]])
+  145.76s 2+ hands in view -> back to one
+  154.59s hand LOST
+  154.59s holding last aim [14.7, 29.2]
+  156.04s stopped holding (firmware re-centers about 1 s after the last command)
+  156.26s hand FOUND
+  156.66s hand LOST
+  156.66s holding last aim [15.1, 21.1]
+  158.11s stopped holding (firmware re-centers about 1 s after the last command)
+  160.59s hand FOUND
+  161.95s hand LOST
+  161.95s holding last aim [-3.0, 18.3]
+  162.45s hand FOUND
+  162.45s stopped holding (firmware re-centers about 1 s after the last command)
+  164.00s hand LOST
+  164.00s holding last aim [11.6, 25.7]
+  165.42s stopped holding (firmware re-centers about 1 s after the last command)
+  166.65s hand FOUND
+  171.92s hand LOST
+  171.92s holding last aim [2.7, 32.2]
+  173.38s stopped holding (firmware re-centers about 1 s after the last command)
+  180.04s hand FOUND
+  180.17s hand LOST
+  180.17s holding last aim [11.5, 22.1]
+  180.38s hand FOUND
+  180.38s GLITCH ignored: jumped 0.14 m to px (249,391) palm 48px hands=1 others=[] z 0.44
+  180.45s stopped holding (firmware re-centers about 1 s after the last command)
+  181.36s hand LOST
+  181.36s holding last aim [13.8, 21.4]
+  182.40s hand FOUND
+  182.40s stopped holding (firmware re-centers about 1 s after the last command)
+  183.66s hand LOST
+  183.66s holding last aim [17.3, 28.1]
+  184.53s hand FOUND
+  184.53s stopped holding (firmware re-centers about 1 s after the last command)
+  184.64s hand LOST
+  184.64s holding last aim [21.1, 25.5]
+  185.49s hand FOUND
+  185.49s stopped holding (firmware re-centers about 1 s after the last command)
+  185.87s hand LOST
+  185.87s holding last aim [16.9, 21.8]
+  187.15s hand FOUND
+  187.15s stopped holding (firmware re-centers about 1 s after the last command)
+  187.46s hand LOST
+  187.46s holding last aim [8.4, 18.5]
+  187.55s hand FOUND
+  187.55s stopped holding (firmware re-centers about 1 s after the last command)
+  187.58s hand LOST
+  187.58s holding last aim [13.5, 19.6]
+  188.00s hand FOUND
+  188.00s stopped holding (firmware re-centers about 1 s after the last command)
+  188.66s hand LOST
+  188.66s holding last aim [21.1, 22.2]
+  189.45s hand FOUND
+  189.45s stopped holding (firmware re-centers about 1 s after the last command)
+  192.75s hand LOST
+  192.75s holding last aim [20.3, 17.6]
+  193.49s hand FOUND
+  193.49s stopped holding (firmware re-centers about 1 s after the last command)
+  195.57s hand LOST
+  195.57s holding last aim [23.6, 17.7]
+  195.98s hand FOUND
+  195.98s stopped holding (firmware re-centers about 1 s after the last command)
+  197.56s hand LOST
+  197.56s holding last aim [2.9, 11.2]
+  198.19s hand FOUND
+  198.19s stopped holding (firmware re-centers about 1 s after the last command)
+  200.09s hand LOST
+  200.09s holding last aim [-7.7, 5.3]
+  200.61s hand FOUND
+  200.61s stopped holding (firmware re-centers about 1 s after the last command)
+  203.42s NUDGE a trim=[-0.5, 0.0]
+  203.94s NUDGE a trim=[-1.0, 0.0]
+  203.99s NUDGE a trim=[-1.6, 0.0]
+  204.03s NUDGE a trim=[-2.4, 0.0]
+  204.05s NUDGE a trim=[-3.2, 0.0]
+  204.08s NUDGE a trim=[-4.2, 0.0]
+  204.13s NUDGE a trim=[-5.4, 0.0]
+  204.15s NUDGE a trim=[-6.6, 0.0]
+  204.18s NUDGE a trim=[-8.0, 0.0]
+  204.22s NUDGE a trim=[-9.5, 0.0]
+  204.25s NUDGE a trim=[-11.1, 0.0]
+  204.27s NUDGE a trim=[-12.9, 0.0]
+  204.34s NUDGE a trim=[-14.7, 0.0]
+  204.38s NUDGE a trim=[-16.7, 0.0]
+  204.43s NUDGE a trim=[-18.9, 0.0]
+  204.50s NUDGE a trim=[-21.1, 0.0]
+  204.94s NUDGE d trim=[-20.6, 0.0]
+  205.47s NUDGE d trim=[-20.1, 0.0]
+  205.49s NUDGE d trim=[-19.4, 0.0]
+  205.53s NUDGE d trim=[-18.7, 0.0]
+  205.56s NUDGE d trim=[-17.8, 0.0]
+  205.58s NUDGE d trim=[-16.8, 0.0]
+  205.65s NUDGE d trim=[-15.7, 0.0]
+  206.22s NUDGE d trim=[-15.2, 0.0]
+  208.07s NUDGE d trim=[-14.6, 0.0]
+  208.38s NUDGE d trim=[-14.0, 0.0]
+  209.31s NUDGE d trim=[-13.5, 0.0]
+  209.82s NUDGE d trim=[-13.0, 0.0]
+  209.85s NUDGE d trim=[-12.4, 0.0]
+  209.92s NUDGE d trim=[-11.6, 0.0]
+  210.46s NUDGE w trim=[-11.6, 0.5]
+  210.98s NUDGE w trim=[-11.6, 1.0]
+  211.00s NUDGE w trim=[-11.6, 1.6]
+  211.04s NUDGE w trim=[-11.6, 2.4]
+  211.09s NUDGE w trim=[-11.6, 3.2]
+  211.11s NUDGE w trim=[-11.6, 4.2]
+  211.14s NUDGE w trim=[-11.6, 5.4]
+  211.18s NUDGE w trim=[-11.6, 6.6]
+  211.23s NUDGE w trim=[-11.6, 8.0]
+  214.18s NUDGE s trim=[-9.8, 6.3]
+  214.69s NUDGE s trim=[-9.8, 5.8]
+  214.71s NUDGE s trim=[-9.8, 5.1]
+  214.77s NUDGE s trim=[-9.8, 4.4]
+  214.81s NUDGE s trim=[-9.8, 3.5]
+  214.86s NUDGE s trim=[-9.8, 2.5]
+  215.30s NUDGE a trim=[-10.3, 2.5]
+  215.83s NUDGE a trim=[-10.8, 2.5]
+  215.85s NUDGE a trim=[-11.4, 2.5]
+  215.92s NUDGE a trim=[-12.2, 2.5]
+  215.95s NUDGE a trim=[-13.1, 2.5]
+  216.02s NUDGE a trim=[-14.1, 2.5]
+  216.04s NUDGE a trim=[-15.2, 2.5]
+  216.08s NUDGE a trim=[-16.4, 2.5]
+  216.13s NUDGE a trim=[-17.8, 2.5]
+  216.16s NUDGE a trim=[-19.3, 2.5]
+  216.18s NUDGE a trim=[-20.9, 2.5]
+  216.63s NUDGE d trim=[-20.4, 2.5]
+  217.14s NUDGE d trim=[-19.9, 2.5]
+  217.18s NUDGE d trim=[-19.3, 2.5]
+  217.23s NUDGE d trim=[-18.6, 2.5]
+  217.26s NUDGE d trim=[-17.7, 2.5]
+  217.29s NUDGE d trim=[-16.7, 2.5]
+  217.33s NUDGE d trim=[-15.6, 2.5]
+  217.35s NUDGE d trim=[-14.3, 2.5]
+  217.38s NUDGE d trim=[-12.9, 2.5]
+  217.44s NUDGE d trim=[-11.4, 2.5]
+  218.38s NUDGE a trim=[-11.9, 2.5]
+  218.90s NUDGE a trim=[-12.4, 2.5]
+  218.92s NUDGE a trim=[-13.1, 2.5]
+  218.95s NUDGE a trim=[-13.8, 2.5]
+  219.86s NUDGE w trim=[-13.8, 3.0]
+  220.29s NUDGE w trim=[-13.8, 3.5]
+  220.66s NUDGE w trim=[-13.8, 4.1]
+  220.91s NUDGE w trim=[-13.8, 4.9]
+  221.17s NUDGE w trim=[-13.8, 5.8]
+  222.93s NUDGE s trim=[-13.8, 5.3]
+  223.27s NUDGE s trim=[-13.8, 4.6]
+  228.62s RECORD #6 auto cam=[0.093, -0.011, 0.282] aim=[29.52, 25.28] sigma=3.79deg hand_std_cm=[1.3, 0.7, 1.1] trim=[-13.8, 4.6]
+  228.68s FIT n=6 kept=5 dropped=[2] params=[-0.063, 0.091, -0.093, -0.087, -0.006, 0.186, 0.207, 0.137] err_deg=[0.39, 2.5, 9.58, 0.2, 1.57, 1.58] adopted=True
+  229.98s hand LOST
+  229.98s holding last aim [26.5, 17.1]
+  230.29s hand FOUND
+  230.29s stopped holding (firmware re-centers about 1 s after the last command)
+  240.72s hand LOST
+  240.72s holding last aim [0.4, 27.0]
+  242.19s stopped holding (firmware re-centers about 1 s after the last command)
+  254.95s hand FOUND
+  255.03s 2+ hands in view (following 485,259; others [[481.0, 239.0]])
+  255.05s 2+ hands in view -> back to one
+  260.31s 2+ hands in view (following 688,320; others [[317.0, 448.0]])
+  261.29s 2+ hands in view -> back to one
+  263.26s hand LOST
+  263.26s holding last aim [17.9, 13.8]
+  263.39s hand FOUND
+  263.39s stopped holding (firmware re-centers about 1 s after the last command)
+  263.72s 2+ hands in view (following 315,341; others [[295.0, 317.0]])
+  263.76s 2+ hands in view -> back to one
+  268.90s 2+ hands in view (following 176,186; others [[101.0, 224.0]])
+  269.12s 2+ hands in view -> back to one
+  269.12s GLITCH ignored: jumped 0.15 m to px (73,214) palm 54px hands=1 others=[] z 0.58
+  269.12s holding last aim [-3.1, 24.0]
+  269.17s GLITCH ignored: jumped 0.15 m to px (69,214) palm 54px hands=1 others=[] z 0.58
+  269.21s 2+ hands in view (following 64,214; others [[348.0, 281.0]])
+  269.22s JUMP aim moved [-9.8, -0.4] deg in one frame: px (64,214) palm 52px hands=2 others=[[348.0, 281.0]] z 0.52 trim=[0.0, 0.0]
+  269.22s stopped holding (firmware re-centers about 1 s after the last command)
+  269.25s 2+ hands in view -> back to one
+  270.38s NUDGE d trim=[0.5, 0.0]
+  270.65s NUDGE d trim=[1.1, 0.0]
+  270.92s NUDGE d trim=[1.9, 0.0]
+  271.36s NUDGE a trim=[1.4, 0.0]
+  271.86s NUDGE a trim=[0.9, 0.0]
+  271.90s NUDGE a trim=[0.2, 0.0]
+  271.95s NUDGE a trim=[-0.5, 0.0]
+  271.98s NUDGE a trim=[-1.4, 0.0]
+  272.01s NUDGE a trim=[-2.4, 0.0]
+  272.05s NUDGE a trim=[-3.5, 0.0]
+  272.08s NUDGE a trim=[-4.8, 0.0]
+  272.12s NUDGE a trim=[-6.1, 0.0]
+  272.19s NUDGE a trim=[-7.6, 0.0]
+  272.23s NUDGE a trim=[-9.3, 0.0]
+  272.41s NUDGE a trim=[-11.0, 0.0]
+  272.87s NUDGE a trim=[-11.5, 0.0]
+  273.18s NUDGE w trim=[-11.5, 0.6]
+  273.51s NUDGE w trim=[-11.5, 1.4]
+  274.06s NUDGE d trim=[-11.0, 1.4]
+  274.37s NUDGE d trim=[-10.4, 1.4]
+  274.59s NUDGE d trim=[-9.6, 1.4]
+  275.18s NUDGE d trim=[-9.1, 1.4]
+  275.35s 2+ hands in view (following 21,220; others [[45.0, 227.0]])
+  275.38s 2+ hands in view -> back to one
+  275.45s 2+ hands in view (following 20,221; others [[45.0, 229.0]])
+  275.47s NUDGE d trim=[-8.5, 1.4]
+  275.49s 2+ hands in view -> back to one
+  275.73s NUDGE d trim=[-7.7, 1.4]
+  276.10s NUDGE d trim=[-6.9, 1.4]
+  277.33s hand LOST
+  277.33s holding last aim [-25.1, 24.5]
+  278.79s stopped holding (firmware re-centers about 1 s after the last command)
+  279.06s hand FOUND
+  280.04s NUDGE d trim=[-6.0, 1.3]
+  280.36s NUDGE d trim=[-5.4, 1.3]
+  280.64s NUDGE d trim=[-4.7, 1.3]
+  281.21s NUDGE d trim=[-4.2, 1.3]
+  282.21s NUDGE d trim=[-3.6, 1.3]
+  282.72s NUDGE d trim=[-3.1, 1.3]
+  282.80s NUDGE a trim=[-3.8, 1.3]
+  283.29s NUDGE a trim=[-4.3, 1.3]
+  283.32s NUDGE a trim=[-4.9, 1.3]
+  283.36s NUDGE a trim=[-5.6, 1.3]
+  283.39s NUDGE a trim=[-6.5, 1.3]
+  283.41s NUDGE a trim=[-7.5, 1.3]
+  283.45s NUDGE a trim=[-8.6, 1.3]
+  283.48s NUDGE a trim=[-9.9, 1.3]
+  283.51s NUDGE a trim=[-11.3, 1.3]
+  283.54s NUDGE a trim=[-12.8, 1.3]
+  284.22s NUDGE d trim=[-12.3, 1.3]
+  284.49s NUDGE d trim=[-11.6, 1.3]
+  285.00s NUDGE w trim=[-11.6, 1.8]
+  285.32s NUDGE w trim=[-11.6, 2.4]
+  288.53s hand LOST
+  288.53s holding last aim [-17.2, 37.0]
+  289.98s stopped holding (firmware re-centers about 1 s after the last command)
+  291.66s hand FOUND
+  293.60s RECORD #7 auto cam=[-0.07, 0.079, 0.333] aim=[10.47, 17.79] sigma=4.14deg hand_std_cm=[1.5, 1.1, 1.5] trim=[-11.6, 2.4]
+  293.65s FIT n=7 kept=6 dropped=[2] params=[-0.067, 0.09, -0.091, -0.085, -0.012, 0.185, 0.208, 0.137] err_deg=[0.38, 2.54, 9.58, 0.21, 1.62, 1.49, 0.46] adopted=True
+  294.84s hand LOST
+  294.84s holding last aim [6.6, 11.8]
+  295.27s hand FOUND
+  295.27s stopped holding (firmware re-centers about 1 s after the last command)
+  298.91s NUDGE a trim=[-0.5, 0.0]
+  299.41s NUDGE a trim=[-1.0, 0.0]
+  299.44s NUDGE a trim=[-1.6, 0.0]
+  299.47s NUDGE a trim=[-2.4, 0.0]
+  299.49s NUDGE a trim=[-3.2, 0.0]
+  299.53s NUDGE a trim=[-4.2, 0.0]
+  299.55s NUDGE a trim=[-5.4, 0.0]
+  299.58s NUDGE a trim=[-6.6, 0.0]
+  301.73s NUDGE s trim=[-6.6, -0.5]
+  301.97s NUDGE s trim=[-6.6, -1.1]
+  302.23s NUDGE s trim=[-6.6, -1.9]
+  302.47s NUDGE s trim=[-6.6, -2.7]
+  302.79s NUDGE s trim=[-6.6, -3.7]
+  310.46s RECORD #8 auto cam=[-0.222, 0.02, 0.483] aim=[-8.97, 19.3] sigma=2.25deg hand_std_cm=[1.2, 0.1, 1.2] trim=[-6.6, -3.7]
+  310.51s FIT n=8 kept=7 dropped=[2] params=[-0.016, 0.076, -0.076, -0.121, 0.029, 0.203, 0.216, 0.139] err_deg=[0.59, 2.58, 9.19, 0.2, 1.58, 2.14, 1.16, 2.24] adopted=True
+  313.10s 2+ hands in view (following 121,268; others [[588.0, 303.0]])
+  313.14s 2+ hands in view -> back to one
+  313.18s 2+ hands in view (following 121,268; others [[597.0, 312.0]])
+  313.22s 2+ hands in view -> back to one
+  315.42s NUDGE d trim=[0.5, 0.0]
+  315.86s NUDGE a trim=[-0.0, 0.0]
+  316.39s NUDGE a trim=[-0.5, 0.0]
+  316.41s NUDGE a trim=[-1.1, 0.0]
+  316.45s NUDGE a trim=[-1.9, 0.0]
+  316.50s NUDGE a trim=[-2.8, 0.0]
+  316.79s NUDGE a trim=[-3.8, 0.0]
+  322.33s RECORD #9 auto cam=[-0.232, -0.023, 0.4] aim=[-11.9, 27.29] sigma=1.38deg hand_std_cm=[0.2, 0.3, 0.6] trim=[-3.8, 0.0]
+  322.38s FIT n=9 kept=8 dropped=[2] params=[0.102, 0.072, -0.1, -0.13, 0.061, 0.22, 0.212, 0.138] err_deg=[0.84, 3.11, 7.98, 0.13, 1.73, 3.9, 2.03, 1.24, 1.56] adopted=True
+  324.34s NUDGE d trim=[0.5, 0.0]
+  324.83s NUDGE a trim=[-0.0, 0.0]
+  325.23s NUDGE a trim=[-0.6, 0.0]
+  327.16s RECORD #10 auto cam=[-0.23, -0.065, 0.364] aim=[-11.09, 32.65] sigma=1.19deg hand_std_cm=[0.2, 0.1, 0.4] trim=[-0.6, 0.0]
+  327.20s FIT n=10 kept=9 dropped=[2] params=[0.115, 0.075, -0.109, -0.129, 0.068, 0.221, 0.21, 0.138] err_deg=[0.86, 3.15, 7.82, 0.13, 1.72, 4.17, 2.16, 1.18, 1.37, 0.28] adopted=True
+  341.19s hand LOST
+  341.19s holding last aim [15.5, 12.9]
+  341.36s hand FOUND
+  341.36s stopped holding (firmware re-centers about 1 s after the last command)
+  341.50s hand LOST
+  341.50s holding last aim [13.9, 13.3]
+  342.78s hand FOUND
+  342.79s stopped holding (firmware re-centers about 1 s after the last command)
+  342.97s hand LOST
+  342.97s holding last aim [21.7, 17.2]
+  344.10s hand FOUND
+  344.10s stopped holding (firmware re-centers about 1 s after the last command)
+  344.70s hand LOST
+  344.70s holding last aim [21.0, 12.8]
+  346.16s stopped holding (firmware re-centers about 1 s after the last command)
+  382.78s hand FOUND
+  384.43s 2+ hands in view (following 663,85; others [[433.0, 179.0]])
+  384.63s 2+ hands in view -> back to one
+  384.78s hand LOST
+  384.78s holding last aim [33.6, 31.0]
+  385.71s hand FOUND
+  385.71s stopped holding (firmware re-centers about 1 s after the last command)
+  387.02s hand LOST
+  387.02s holding last aim [38.7, 31.9]
+  388.47s stopped holding (firmware re-centers about 1 s after the last command)
+  388.99s hand FOUND
+  389.09s 2+ hands in view (following 469,173; others [[569.0, 209.0]])
+  389.61s 2+ hands in view -> back to one
+  389.65s hand LOST
+  389.65s holding last aim [17.1, 26.8]
+  389.80s hand FOUND
+  389.80s stopped holding (firmware re-centers about 1 s after the last command)
+  391.11s 2+ hands in view (following 322,68; others [[653.0, 224.0]])
+  392.41s hand LOST
+  392.41s 2+ hands in view -> back to one
+  392.41s holding last aim [4.3, 36.7]
+  393.39s hand FOUND
+  393.39s 2+ hands in view (following 313,25; others [[666.0, 232.0]])
+  393.39s stopped holding (firmware re-centers about 1 s after the last command)
+  397.67s 2+ hands in view -> back to one
+  398.95s hand LOST
+  398.95s holding last aim [29.8, 15.0]
+  399.56s hand FOUND
+  399.57s stopped holding (firmware re-centers about 1 s after the last command)
+  402.74s hand LOST
+  402.74s holding last aim [3.5, 36.0]
+  404.09s hand FOUND
+  404.09s 2+ hands in view (following 244,27; others [[561.0, 247.0]])
+  404.09s stopped holding (firmware re-centers about 1 s after the last command)
+  409.04s 2+ hands in view -> back to one
+  426.43s hand LOST
+  426.43s holding last aim [23.1, 31.8]
+  427.87s stopped holding (firmware re-centers about 1 s after the last command)
+  453.95s hand FOUND
+  454.06s hand LOST
+  454.06s holding last aim [25.5, 14.5]
+  454.39s hand FOUND
+  454.39s stopped holding (firmware re-centers about 1 s after the last command)
+  456.18s hand LOST
+  456.18s holding last aim [25.1, 26.3]
+  457.16s hand FOUND
+  457.16s stopped holding (firmware re-centers about 1 s after the last command)
+  457.63s hand LOST
+  457.63s holding last aim [29.2, 24.8]
+  459.07s stopped holding (firmware re-centers about 1 s after the last command)
+  460.19s hand FOUND
+  461.30s 2+ hands in view (following 493,190; others [[433.0, 168.0]])
+  461.36s 2+ hands in view -> back to one
+  461.58s 2+ hands in view (following 525,141; others [[509.0, 277.0]])
+  461.77s 2+ hands in view -> back to one
+  461.92s 2+ hands in view (following 620,118; others [[532.0, 275.0]])
+  463.50s 2+ hands in view -> back to one
+  466.03s 2+ hands in view (following 542,161; others [[518.0, 278.0]])
+  467.03s 2+ hands in view -> back to one
+  467.03s GLITCH ignored: jumped 0.13 m to px (509,275) palm 28px hands=1 others=[] z 0.48
+  467.03s holding last aim [18.0, 30.2]
+  467.07s GLITCH ignored: jumped 0.13 m to px (509,275) palm 28px hands=1 others=[] z 0.48
+  467.11s JUMP aim moved [1.3, -11.7] deg in one frame: px (509,275) palm 28px hands=1 others=[] z 0.53 trim=[0.0, 0.0]
+  467.11s stopped holding (firmware re-centers about 1 s after the last command)
+  468.44s hand LOST
+  468.44s holding last aim [17.1, 15.5]
+  468.79s hand FOUND
+  468.79s stopped holding (firmware re-centers about 1 s after the last command)
+  470.33s GLITCH ignored: jumped 0.13 m to px (579,256) palm 4px hands=1 others=[] z 1.39
+  470.33s holding last aim [15.8, 12.6]
+  470.36s GLITCH ignored: jumped 0.27 m to px (579,254) palm 2px hands=1 others=[] z 1.53
+  470.40s GLITCH ignored: jumped 0.44 m to px (583,249) palm 3px hands=1 others=[] z 1.68
+  470.43s GLITCH ignored: jumped 0.61 m to px (584,247) palm 1px hands=1 others=[] z 1.85
+  470.46s GLITCH ignored: jumped 0.80 m to px (583,242) palm 8px hands=1 others=[] z 2.04
+  470.49s GLITCH ignored: jumped 1.01 m to px (585,236) palm 8px hands=1 others=[] z 2.24
+  470.53s hand LOST
+  471.16s hand FOUND
+  471.16s stopped holding (firmware re-centers about 1 s after the last command)
+  471.21s GLITCH ignored: jumped 0.18 m to px (452,125) palm 25px hands=1 others=[] z 2.64
+  471.21s holding last aim [0.2, 20.3]
+  471.24s stopped holding (firmware re-centers about 1 s after the last command)
+  471.27s GLITCH ignored: jumped 0.24 m to px (452,120) palm 22px hands=1 others=[] z 2.14
+  471.27s holding last aim [-0.0, 21.4]
+  471.30s GLITCH ignored: jumped 0.46 m to px (455,121) palm 22px hands=1 others=[] z 1.92
+  471.33s GLITCH ignored: jumped 0.66 m to px (454,122) palm 13px hands=1 others=[] z 1.73
+  471.36s hand LOST
+  472.74s stopped holding (firmware re-centers about 1 s after the last command)
+  478.79s hand FOUND
+  478.83s GLITCH ignored: jumped 0.16 m to px (643,405) palm 106px hands=1 others=[] z 1.40
+  478.83s holding last aim [19.2, 0.3]
+  478.86s GLITCH ignored: jumped 0.35 m to px (594,439) palm 113px hands=1 others=[] z 1.26
+  478.89s GLITCH ignored: jumped 0.54 m to px (530,443) palm 113px hands=1 others=[] z 1.14
+  478.93s hand LOST
+  480.32s stopped holding (firmware re-centers about 1 s after the last command)
+  480.43s hand FOUND
+  480.91s hand LOST
+  480.91s holding last aim [6.3, 20.9]
+  481.01s hand FOUND
+  481.01s stopped holding (firmware re-centers about 1 s after the last command)
+  481.11s hand LOST
+  481.12s holding last aim [6.5, 21.1]
+  482.18s hand FOUND
+  482.19s stopped holding (firmware re-centers about 1 s after the last command)
+  482.22s hand LOST
+  482.22s holding last aim [6.9, 19.9]
+  482.26s hand FOUND
+  482.26s stopped holding (firmware re-centers about 1 s after the last command)
+  482.29s hand LOST
+  482.29s holding last aim [7.4, 19.3]
+  483.08s hand FOUND
+  483.08s stopped holding (firmware re-centers about 1 s after the last command)
+  483.17s hand LOST
+  483.17s holding last aim [2.8, 18.6]
+  483.59s hand FOUND
+  483.59s stopped holding (firmware re-centers about 1 s after the last command)
+  483.63s hand LOST
+  483.63s holding last aim [6.3, 18.2]
+  483.67s hand FOUND
+  483.67s stopped holding (firmware re-centers about 1 s after the last command)
+  483.70s hand LOST
+  483.70s holding last aim [7.2, 19.0]
+  484.19s hand FOUND
+  484.20s stopped holding (firmware re-centers about 1 s after the last command)
+  484.35s hand LOST
+  484.35s holding last aim [7.7, 17.5]
+  484.44s hand FOUND
+  484.44s GLITCH ignored: jumped 0.20 m to px (565,283) palm 117px hands=1 others=[] z 0.96
+  484.49s GLITCH ignored: jumped 0.21 m to px (570,301) palm 124px hands=1 others=[] z 0.94
+  484.53s stopped holding (firmware re-centers about 1 s after the last command)
+  484.59s hand LOST
+  484.59s holding last aim [21.3, 10.0]
+  486.03s stopped holding (firmware re-centers about 1 s after the last command)
+  489.07s hand FOUND
+  490.07s hand LOST
+  490.07s holding last aim [9.5, 30.7]
+  490.28s hand FOUND
+  490.28s stopped holding (firmware re-centers about 1 s after the last command)
+  490.43s hand LOST
+  490.43s holding last aim [8.7, 28.7]
+  491.93s hand FOUND
+  491.93s stopped holding (firmware re-centers about 1 s after the last command)
+  492.45s hand LOST
+  492.45s holding last aim [25.1, 22.0]
+  493.90s stopped holding (firmware re-centers about 1 s after the last command)
+  496.83s hand FOUND
+  497.03s hand LOST
+  497.03s holding last aim [13.8, 28.1]
+  498.48s stopped holding (firmware re-centers about 1 s after the last command)
+  506.68s hand FOUND
+  508.33s hand LOST
+  508.33s holding last aim [9.1, 35.1]
+  509.78s stopped holding (firmware re-centers about 1 s after the last command)
+  512.86s hand FOUND
+  513.67s hand LOST
+  513.67s holding last aim [4.3, 22.6]
+  515.12s stopped holding (firmware re-centers about 1 s after the last command)
+  581.00s hand FOUND
+  581.19s holding last aim [5.9, 23.6]
+  582.01s stopped holding (firmware re-centers about 1 s after the last command)
+  584.15s hand LOST
+  584.15s holding last aim [-1.5, 21.0]
+  584.58s hand FOUND
+  584.58s stopped holding (firmware re-centers about 1 s after the last command)
+  587.88s hand LOST
+  587.88s holding last aim [18.2, 22.0]
+  588.12s hand FOUND
+  588.12s stopped holding (firmware re-centers about 1 s after the last command)
+  588.50s hand LOST
+  588.51s holding last aim [12.5, 19.4]
+  589.09s hand FOUND
+  589.09s stopped holding (firmware re-centers about 1 s after the last command)
+  591.80s hand LOST
+  591.80s holding last aim [-5.5, 18.1]
+  592.34s hand FOUND
+  592.34s stopped holding (firmware re-centers about 1 s after the last command)
+  596.84s hand LOST
+  596.84s holding last aim [-12.9, 17.1]
+  598.28s stopped holding (firmware re-centers about 1 s after the last command)
+  603.23s hand FOUND
+  609.43s hand LOST
+  609.43s holding last aim [5.2, 19.4]
+  609.82s hand FOUND
+  609.82s stopped holding (firmware re-centers about 1 s after the last command)
+  615.19s hand LOST
+  615.19s holding last aim [-8.8, 27.4]
+  616.29s hand FOUND
+  616.29s stopped holding (firmware re-centers about 1 s after the last command)
+  618.76s hand LOST
+  618.76s holding last aim [-3.2, 16.8]
+  618.81s hand FOUND
+  618.81s stopped holding (firmware re-centers about 1 s after the last command)
+  619.53s hand LOST
+  619.53s holding last aim [4.4, 15.4]
+  619.75s hand FOUND
+  619.75s stopped holding (firmware re-centers about 1 s after the last command)
+  623.23s hand LOST
+  623.23s holding last aim [25.9, 17.3]
+  624.69s stopped holding (firmware re-centers about 1 s after the last command)
+  625.62s hand FOUND
+  626.58s hand LOST
+  626.58s holding last aim [17.0, 17.0]
+  627.57s hand FOUND
+  627.57s stopped holding (firmware re-centers about 1 s after the last command)
+  627.81s hand LOST
+  627.81s holding last aim [-0.8, 11.9]
+  628.94s hand FOUND
+  628.94s stopped holding (firmware re-centers about 1 s after the last command)
+  629.13s hand LOST
+  629.13s holding last aim [-4.3, 16.3]
+  629.84s hand FOUND
+  629.84s stopped holding (firmware re-centers about 1 s after the last command)
+  630.81s hand LOST
+  630.81s holding last aim [3.0, 22.8]
+  631.01s hand FOUND
+  631.01s stopped holding (firmware re-centers about 1 s after the last command)
+  631.65s hand LOST
+  631.65s holding last aim [6.5, 23.9]
+  633.14s stopped holding (firmware re-centers about 1 s after the last command)
+  633.27s hand FOUND
+  635.37s hand LOST
+  635.37s holding last aim [-4.1, 16.6]
+  636.83s stopped holding (firmware re-centers about 1 s after the last command)

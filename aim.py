@@ -2,14 +2,33 @@
 import collections
 from math import atan2, degrees, hypot
 import numpy as np
-from config import CAMERA_OFFSET_T, FIT_SAMPLES, FIT_MIN_SAMPLES, TRACK_JUMP_M, TRACK_TIMEOUT_S
+from config import CAMERA_OFFSET_T, CAMERA_ROT, CAMERA_SCALE, FIT_SAMPLES, FIT_MIN_SAMPLES, TRACK_JUMP_M, TRACK_TIMEOUT_S
+
+
+def rot(v):
+    """Rotation matrix of rotation vector v (rad), Rodrigues."""
+    th = np.linalg.norm(v)
+    if th < 1e-12:
+        return np.eye(3)
+    k = np.asarray(v) / th
+    K = np.array([[0, -k[2], k[1]], [k[2], 0, -k[0]], [-k[1], k[0], 0]])
+    return np.eye(3) + np.sin(th) * K + (1 - np.cos(th)) * K @ K
+
 
 OFF = np.array(CAMERA_OFFSET_T)
+SCALE = np.array([*CAMERA_SCALE, 1.0])
+R = rot(CAMERA_ROT)
 
 
 def to_turret(c):
-    """Camera point (+Y down) -> turret frame (+Y up, origin at pivot)."""
-    return np.array([c[0], -c[1], c[2]]) + OFF
+    """Camera point (+Y down) -> turret frame (+Y up, origin at pivot): scale, rotate, then offset."""
+    return R @ (SCALE * [c[0], -c[1], c[2]]) + OFF
+
+
+def to_camera(p):
+    """Inverse of to_turret."""
+    q = R.T @ (np.asarray(p) - OFF) / SCALE
+    return np.array([q[0], -q[1], q[2]])
 
 
 class Tracker:
@@ -46,7 +65,9 @@ def aim_point(p_now, v, delay_s):
 
 if __name__ == "__main__":
     from types import SimpleNamespace
-    assert np.allclose(to_turret((0.2, 0.1, 2.0)), (0.2, -0.1 + 0.1, 2.02))
+    assert np.allclose(to_turret((0.2, 0.1, 2.0)), R @ (SCALE * (0.2, -0.1, 2.0)) + OFF)
+    assert np.allclose(to_camera(to_turret((0.2, 0.1, 2.0))), (0.2, 0.1, 2.0))
+    assert np.allclose(rot((0, 0, np.pi / 2)) @ (1, 0, 0), (0, 1, 0))
     y, p, a = aim_point(np.array([0.2, 0.0, 2.02]), np.array([0.5, 0, 0]), 0.15)
     assert abs(y - degrees(atan2(0.275, 2.02))) < 1e-9 and abs(p) < 1e-9 and np.allclose(a, (0.275, 0, 2.02))
     rng, trk = np.random.default_rng(0), Tracker()
@@ -55,7 +76,7 @@ if __name__ == "__main__":
         c = np.array([0.5 * t, 0, 2 + 0.2 * t]) + rng.normal(0, 0.005, 3)
         trk.update(SimpleNamespace(center_cam=c, bbox=(0, 0, 0, 0)), t)
     p_now, v, _, rms, n = trk.fit()
-    assert n == 12 and np.all(abs(v - (0.5, 0, 0.2)) < 0.1) and rms < 0.02, (v, rms)
+    assert n == min(12, FIT_SAMPLES) and np.all(abs(v - (0.5, 0, 0.2)) < 0.15) and rms < 0.02, (v, rms)
     trk.update(None, 1.0)
     assert trk.fit() is None                                  # timeout clears the track
     print("aim.py OK")

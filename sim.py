@@ -2,6 +2,7 @@
 Drop-in for serial.Serial: main.py only calls write(line); write() steps the physics to now."""
 import collections, math, time
 import numpy as np
+from aim import to_camera, to_turret
 from config import (YAW_MIN_DEG, YAW_MAX_DEG, PITCH_MIN_DEG, PITCH_MAX_DEG, CAMERA_OFFSET_T,
                     SERVO_J, SERVO_E_SAT_DEG, SERVO_TD_S, PITCH_GRAV_NM)
 
@@ -69,8 +70,7 @@ def miss_m(yaw, pitch, p_T):
 
 def to_px(p_T, intr):
     """Camera pixel of a turret-frame point (palm, prediction or a point on the barrel line)."""
-    c = np.array(p_T) - OFF
-    c[1] = -c[1]                                 # turret +Y up -> camera +Y down
+    c = to_camera(p_T)
     return int(intr.fx * c[0] / c[2] + intr.ppx), int(intr.fy * c[1] / c[2] + intr.ppy)
 
 
@@ -80,8 +80,8 @@ if __name__ == "__main__":
     from config import SERVO_LAG_S
 
     t = 0.0
-    s = SimTurret(lambda: t); s.write(b"A,6000,0,0\n"); s.advance(0.35)
-    assert abs(math.degrees(s.th[0]) - 60) < 1, s.th           # 60 deg step settles < 0.35 s
+    s = SimTurret(lambda: t); s.write(b"A,5000,0,0\n"); s.advance(0.35)
+    assert abs(math.degrees(s.th[0]) - 50) < 1, s.th           # 50 deg step settles < 0.35 s
 
     s, lag = SimTurret(lambda: t), []
     while t < 2:                                                # 0.25 rad/s ramp, commanded at 60 Hz
@@ -98,7 +98,7 @@ if __name__ == "__main__":
             p_T = np.array([-1.0 + speed * tc, 0.0, 2.0])       # true palm, 2 m away
             if tc > 0.6: miss.append(miss_m(*s.angles_at(tc), p_T))
             if rng.random() > 0.05:                             # 5 % frames lost
-                c = p_T - OFF + rng.normal(0, 0.005, 3); c[1] = -c[1]   # 5 mm noise, camera frame
+                c = to_camera(p_T) + rng.normal(0, 0.005, 3)            # 5 mm noise, camera frame
                 trk.update(SimpleNamespace(center_cam=c, bbox=(0, 0, 0, 0)), tc)
             fit = trk.fit()
             if fit:
@@ -112,5 +112,5 @@ if __name__ == "__main__":
         print(f"{v} m/s: RMS miss {on * 100:.1f} cm with lead, {off * 100:.1f} cm without")
         assert on < 0.02 and off > 1.5 * on
     intr = SimpleNamespace(fx=600, fy=600, ppx=424, ppy=240)
-    assert to_px(OFF + [0, 0, 2], intr) == (424, 240)                # point straight ahead of lens
+    assert to_px(to_turret((0, 0, 2.0)), intr) == (424, 240)         # point straight ahead of lens
     print("sim.py OK")
